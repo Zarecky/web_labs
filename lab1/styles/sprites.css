@@ -1,0 +1,53 @@
+.bg-catalogue_icon {
+    width: 99px;
+    height: 84px;
+    background: url('../img/sprites.png') -10px -251px;
+}
+
+.bg-intersections_icon {
+    width: 194px;
+    height: 76px;
+    background: url('../img/sprites.png') -10px -155px;
+}
+
+.bg-magnifying_glass_icon {
+    width: 83px;
+    height: 84px;
+    background: url('../img/sprites.png') -129px -251px;
+}
+
+.bg-search_field_icon {
+    width: 174px;
+    height: 69px;
+    background: url('../img/sprites.png') -224px -155px;
+}
+
+.bg-arrow_active {
+    width: 18px;
+    height: 27px;
+    background: url('../img/sprites.png') -232px -251px;
+}
+
+.bg-arrow {
+    width: 18px;
+    height: 27px;
+    background: url('../img/sprites.png') -533px -155px;
+}
+
+.bg-arrow_right {
+    width: 18px;
+    height: 27px;
+    background: url('../img/sprites.png') -571px -155px;
+}
+
+.bg-logo {
+    width: 95px;
+    height: 55px;
+    background: url('../img/sprites.png') -418px -155px;
+}
+
+.bg-offroad_cars {
+    width: 596px;
+    height: 125px;
+    background: url('../img/sprites.png') -10px -10px;
+}

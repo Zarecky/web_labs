@@ -1,0 +1,65 @@
+.logo {
+    width: 166px;
+    height: 82px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.logo::after {
+    display: block;
+    content: "";
+    border-top: 50px solid white;
+    border-left: 83px solid transparent;
+    border-right: 83px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #ffdb4a;
+    box-shadow: 1px 1px 2px rgba(255, 90, 0, .8);
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.button-arrow {
+    width: 60px;
+    height: 60px;
+}
+
+.button-play {
+    width: 128px;
+    height: 128px;
+}
+
+.button-play_picture {
+    border-left: 44px solid white;
+    border-top: 29px solid transparent;
+    border-bottom: 29px solid transparent;
+}
+
+.button-arrow_left:active .button-arrow__picture {
+    background: url('../img/sprites.png') -232px -251px;
+    transform: translateX(1px);
+}
+.button-arrow_right:active .button-arrow__picture {
+    background: url('../img/sprites.png') -232px -251px;
+    transform: translateX(-1px) scaleX(-1);
+}
+
+.title {
+    font-size: 36pt;
+    font-weight: 100;
+    margin: 20px 0;
+}
